@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 4.0, 44.0, 493.0, 313.0 ],
+		"rect" : [ 4.0, 44.0, 795.0, 653.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 493.0, 313.0 ],
+		"defrect" : [ 4.0, 44.0, 795.0, 653.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -22,12 +22,40 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"id" : "obj-39",
-					"maxclass" : "newobj",
+					"id" : "obj-13",
+					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 373.0, 76.0, 19.0 ],
+					"patching_rect" : [ 100.0, 136.0, 198.0, 17.0 ],
+					"text" : "/preset/store 1 default, /preset/write"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-14",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 80.0, 110.0, 160.0, 17.0 ],
+					"text" : "/documentation/generate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "signal" ],
+					"patching_rect" : [ 90.0, 375.0, 76.0, 19.0 ],
 					"text" : "jalg.shpidel~"
 				}
 
@@ -420,7 +448,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
-					"text" : "/editing_this_module.4",
+					"text" : "/editing_this_module",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -434,7 +462,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 90.0, 410.0, 73.0, 19.0 ],
+					"patching_rect" : [ 89.0, 403.0, 73.0, 19.0 ],
 					"text" : "jcom.out~ 1"
 				}
 
@@ -462,8 +490,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 210.0, 421.0, 19.0 ],
-					"text" : "jcom.hub @module_type audio @description \"This module doesn't do much yet\"",
+					"patching_rect" : [ 14.0, 210.0, 452.0, 19.0 ],
+					"text" : "jcom.hub @module_type audio @description \"a wrapper for soundhack's +pitchdelay~\"",
 					"varname" : "jcom.hub"
 				}
 
@@ -499,7 +527,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 440.0, 24.0, 24.0 ]
+					"patching_rect" : [ 89.0, 433.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -629,6 +657,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
@@ -703,8 +749,8 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-39", 0 ]
+					"midpoints" : [ 156.5, 398.0, 98.5, 398.0 ],
+					"source" : [ "obj-39", 1 ]
 				}
 
 			}
@@ -809,18 +855,18 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 1 ],
+					"destination" : [ "obj-39", 0 ],
 					"hidden" : 0,
-					"midpoints" : [  ],
+					"midpoints" : [ 123.0, 366.0, 99.5, 366.0 ],
 					"source" : [ "obj-8", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
+					"destination" : [ "obj-39", 1 ],
 					"hidden" : 0,
-					"midpoints" : [  ],
+					"midpoints" : [ 99.5, 359.0, 156.5, 359.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
