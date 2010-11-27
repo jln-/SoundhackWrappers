@@ -26,7 +26,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 18.0, 489.5, 54.0, 19.0 ],
 					"text" : "+delay~"
 				}
@@ -39,8 +39,8 @@
 					"id" : "obj-31",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 819.0, 122.0, 247.0, 19.0 ],
 					"text" : "jcom.oscroute /shape /frequency /depth"
 				}
@@ -53,8 +53,8 @@
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 548.0, 145.0, 199.0, 19.0 ],
 					"text" : "jcom.oscroute /frequency /resonance"
 				}
@@ -81,8 +81,8 @@
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 65.0, 135.0, 246.0, 19.0 ],
 					"text" : "jcom.oscroute /heads /time /feedback"
 				}
@@ -95,8 +95,8 @@
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 65.0, 100.0, 1150.0, 19.0 ],
 					"text" : "jcom.oscroute /delay /filter /lfo"
 				}
@@ -261,8 +261,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 18.0, 40.0, 25.0, 25.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1212.0, 59.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -309,7 +309,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 451.5, 131.5, 557.5, 131.5 ],
+					"midpoints" : [ 640.0, 131.5, 557.5, 131.5 ],
 					"source" : [ "obj-17", 1 ]
 				}
 
@@ -471,7 +471,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 27.5, 276.75, 27.5, 276.75 ],
+					"midpoints" : [ 1221.5, 457.75, 27.5, 457.75 ],
 					"source" : [ "obj-57", 0 ]
 				}
 

@@ -25,8 +25,8 @@
 					"id" : "obj-70",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 8,
-					"outlettype" : [ "", "", "", "", "", "", "", "" ],
+					"numoutlets" : 7,
+					"outlettype" : [ "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 95.0, 145.0, 174.0, 19.0 ],
 					"text" : "jcom.pass p1 p2 p3 p4 p5 p6 p7"
 				}
@@ -39,8 +39,8 @@
 					"id" : "obj-66",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 100.0, 100.0, 144.0, 19.0 ],
 					"text" : "jcom.oscroute /polynomial"
 				}
@@ -55,7 +55,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 50.0, 175.0, 32.5, 19.0 ],
+					"patching_rect" : [ 286.0, 158.0, 32.5, 19.0 ],
 					"text" : "+~"
 				}
 
@@ -68,7 +68,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 125.0, 210.0, 80.0, 19.0 ],
 					"text" : "+chebyshev~"
 				}
@@ -81,8 +81,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 286.0, 23.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -93,8 +93,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 63.0, 40.0, 25.0, 25.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 299.0, 23.0, 25.0, 25.0 ]
 				}
 
 			}

@@ -26,7 +26,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 50.0, 171.0, 73.0, 19.0 ],
 					"text" : "+decimate~"
 				}
@@ -39,8 +39,8 @@
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 77.0, 100.0, 175.0, 19.0 ],
 					"text" : "jcom.oscroute /bitDepth /folding"
 				}
@@ -53,8 +53,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 105.0, 41.0, 25.0, 25.0 ]
 				}
 
 			}
