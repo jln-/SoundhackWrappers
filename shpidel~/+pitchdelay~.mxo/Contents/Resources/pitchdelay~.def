@@ -1,0 +1,6 @@
+;+pitchdelay~.def
+
+LIBRARY +pitchdelay~.mxe
+
+EXPORTS
+	main

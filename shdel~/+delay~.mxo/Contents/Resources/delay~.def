@@ -1,0 +1,6 @@
+;+delay~.def
+
+LIBRARY +delay~.mxe
+
+EXPORTS
+	main
