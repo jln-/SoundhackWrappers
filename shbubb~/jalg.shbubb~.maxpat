@@ -53,8 +53,8 @@
 					"id" : "obj-81",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
+					"numoutlets" : 7,
+					"outlettype" : [ "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 50.0, 165.0, 376.0, 19.0 ],
 					"text" : "jcom.oscroute /octave /delay /size /position/variation /density /direction"
 				}
@@ -221,8 +221,8 @@
 					"id" : "obj-71",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 463.0, 131.0, 252.0, 19.0 ],
 					"text" : "jcom.oscroute /frequency /resonance /feedback"
 				}
@@ -248,9 +248,9 @@
 					"fontsize" : 10.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 0.0, 436.0, 65.0, 19.0 ],
 					"text" : "+bubbler~"
 				}
@@ -276,7 +276,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 85.0, 40.0, 25.0, 25.0 ]
+					"patching_rect" : [ 0.0, 42.0, 25.0, 25.0 ]
 				}
 
 			}

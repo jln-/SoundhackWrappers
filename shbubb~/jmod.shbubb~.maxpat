@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 592.0, 145.0, 476.0, 258.0 ],
+		"rect" : [ 561.0, 318.0, 689.0, 637.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 592.0, 145.0, 476.0, 258.0 ],
+		"defrect" : [ 561.0, 318.0, 689.0, 637.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -26,7 +26,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 89.0, 369.0, 77.0, 19.0 ],
 					"text" : "jalg.shbubb~"
 				}
@@ -1314,7 +1314,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-91", 1 ],
+					"destination" : [ "obj-91", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-8", 1 ]
@@ -1323,7 +1323,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-91", 0 ],
+					"destination" : [ "obj-91", 1 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-8", 0 ]
