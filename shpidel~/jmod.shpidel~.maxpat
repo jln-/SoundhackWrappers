@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 4.0, 44.0, 795.0, 653.0 ],
+		"rect" : [ 4.0, 44.0, 1318.0, 703.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 795.0, 653.0 ],
+		"defrect" : [ 4.0, 44.0, 1318.0, 703.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -553,8 +553,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 636.0, 46.0, 576.0, 31.0 ],
-					"text" : "jcom.parameter delay/time @type integer @range/bounds 0. 5000. @range/clipmode both @ramp/drive queue @dataspace time",
+					"patching_rect" : [ 636.0, 47.0, 576.0, 31.0 ],
+					"text" : "jcom.parameter delay/time @type integer @range/bounds 1. 5000. @range/clipmode both @ramp/drive queue @dataspace time",
 					"varname" : "delay/time"
 				}
 
@@ -621,8 +621,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 637.0, 546.0, 567.0, 31.0 ],
-					"text" : "jcom.parameter loopDepth @type integer @range/bounds 0. 100. @range/clipmode both @ramp/drive queue @dataspace none",
+					"patching_rect" : [ 637.0, 546.0, 574.0, 31.0 ],
+					"text" : "jcom.parameter loopDepth @type integer @range/bounds 10. 100. @range/clipmode both @ramp/drive queue @dataspace none",
 					"varname" : "loopDepth"
 				}
 
