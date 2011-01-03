@@ -4,15 +4,31 @@
 		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
-  <preset number='1' name='default'>
-    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>0</item>
-    <item name='audio/mix' type='decimal' priority='0' mixweight='1'>0</item>
+  <preset number='1' name='Default'>
+    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='delay/feedback' type='integer' priority='0' mixweight='1'>67</item>
+    <item name='delay/time' type='integer' priority='0' mixweight='1'>685</item>
+    <item name='loopDepth' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='pitch/factor' type='integer' priority='0' mixweight='1'>16</item>
+    <item name='pitch/octave' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/size' type='array' priority='0'>300 70 </item>
+  </preset>
+  <preset number='2' name='Long'>
+    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0' mixweight='1'>100.000000</item>
     <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='delay/feedback' type='integer' priority='0' mixweight='1'>0</item>
-    <item name='delay/time' type='integer' priority='0' mixweight='1'>0</item>
-    <item name='loopDepth' type='integer' priority='0' mixweight='1'>0</item>
-    <item name='pitch/factor' type='integer' priority='0' mixweight='1'>0</item>
-    <item name='pitch/octave' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='delay/time' type='integer' priority='0' mixweight='1'>5000</item>
+    <item name='loopDepth' type='integer' priority='0' mixweight='1'>50</item>
+    <item name='pitch/factor' type='integer' priority='0' mixweight='1'>16</item>
+    <item name='pitch/octave' type='integer' priority='0' mixweight='1'>-1</item>
     <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
     <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
     <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
