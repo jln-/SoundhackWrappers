@@ -47,7 +47,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 90.0, 394.0, 82.0, 19.0 ],
 					"text" : "jalg.shdecim~"
 				}
@@ -240,7 +240,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/editing_this_module.2",
+					"text" : "/editing_this_module",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -360,7 +360,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 771.0, 35.0, 293.0, 55.0 ],
+					"patching_rect" : [ 771.0, 35.0, 296.0, 55.0 ],
 					"text" : "jcom.parameter bitDepth @type decimal @range/bounds 0. 24. @range/clipmode 0 @ramp/drive queue @ramp/function linear @dataspace none @description \"Define bit depth\"",
 					"varname" : "bitDepth"
 				}
@@ -530,7 +530,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-58", 1 ],
+					"destination" : [ "obj-58", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-8", 1 ]
@@ -539,7 +539,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-58", 0 ],
+					"destination" : [ "obj-58", 1 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-8", 0 ]
