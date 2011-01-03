@@ -4,21 +4,38 @@
 		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
-  <preset number='1' name='default'>
-    <item name='audio/gain' type='decimal' priority='0'>0</item>
-    <item name='audio/mix' type='decimal' priority='0'>0</item>
-    <item name='audio/mute' type='boolean' priority='0'>0</item>
-    <item name='polynomial/p1' type='integer' priority='0'>-60</item>
-    <item name='polynomial/p2' type='integer' priority='0'>-60</item>
-    <item name='polynomial/p3' type='integer' priority='0'>-60</item>
-    <item name='polynomial/p4' type='integer' priority='0'>-60</item>
-    <item name='polynomial/p5' type='integer' priority='0'>-60</item>
-    <item name='polynomial/p7' type='integer' priority='0'>-60</item>
-    <item name='view/color/border' type='array' priority='0'>0</item>
-    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
-    <item name='view/freeze' type='boolean' priority='0'>0</item>
+  <preset number='1' name='Default'>
+    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='polynomial/p1' type='integer' priority='0' mixweight='1'>-58</item>
+    <item name='polynomial/p2' type='integer' priority='0' mixweight='1'>-52</item>
+    <item name='polynomial/p3' type='integer' priority='0' mixweight='1'>-46</item>
+    <item name='polynomial/p4' type='integer' priority='0' mixweight='1'>-33</item>
+    <item name='polynomial/p5' type='integer' priority='0' mixweight='1'>-18</item>
+    <item name='polynomial/p7' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/size' type='array' priority='0'>300 70 </item>
+  </preset>
+  <preset number='2' name='clipped'>
+    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='polynomial/p1' type='integer' priority='0' mixweight='1'>-15</item>
+    <item name='polynomial/p2' type='integer' priority='0' mixweight='1'>-10</item>
+    <item name='polynomial/p3' type='integer' priority='0' mixweight='1'>-37</item>
+    <item name='polynomial/p4' type='integer' priority='0' mixweight='1'>-10</item>
+    <item name='polynomial/p5' type='integer' priority='0' mixweight='1'>-47</item>
+    <item name='polynomial/p7' type='integer' priority='0' mixweight='1'>-22</item>
+    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/size' type='array' priority='0'>300 70 </item>
   </preset>
 </jamoma>
