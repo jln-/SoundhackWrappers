@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 165.0, 170.0, 1248.0, 704.0 ],
+		"rect" : [ 13.0, 44.0, 1248.0, 704.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 165.0, 170.0, 1248.0, 704.0 ],
+		"defrect" : [ 13.0, 44.0, 1248.0, 704.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -19,6 +19,20 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 55.0, 185.0, 134.0, 17.0 ],
+					"text" : "documentation/generate"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -763,12 +777,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-30",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 210.0, 421.0, 19.0 ],
-					"text" : "jcom.hub @module_type audio @description \"This module doesn't do much yet\"",
+					"patching_rect" : [ 14.0, 210.0, 329.0, 31.0 ],
+					"text" : "jcom.hub @module_type audio @description \"Distortion unit which uses low-order chebyshev polynomials\"",
 					"varname" : "jcom.hub"
 				}
 
@@ -927,6 +942,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}

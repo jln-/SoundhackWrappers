@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 6.0, 47.0, 1272.0, 564.0 ],
+		"rect" : [ 8.0, 104.0, 1272.0, 564.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 6.0, 47.0, 1272.0, 564.0 ],
+		"defrect" : [ 8.0, 104.0, 1272.0, 564.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -19,6 +19,20 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 69.0, 181.0, 134.0, 17.0 ],
+					"text" : "documentation/generate"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
@@ -278,12 +292,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-30",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 210.0, 421.0, 19.0 ],
-					"text" : "jcom.hub @module_type audio @description \"This module doesn't do much yet\"",
+					"patching_rect" : [ 14.0, 210.0, 412.0, 31.0 ],
+					"text" : "jcom.hub @module_type audio @description \"Bit depth and sample rate reduction for added aliasing (folding) and decimation (bit depth) noise\"",
 					"varname" : "jcom.hub"
 				}
 
@@ -360,7 +375,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 771.0, 35.0, 296.0, 55.0 ],
+					"patching_rect" : [ 771.0, 35.0, 300.0, 55.0 ],
 					"text" : "jcom.parameter bitDepth @type decimal @range/bounds 0. 24. @range/clipmode 0 @ramp/drive queue @ramp/function linear @dataspace none @description \"Define bit depth\"",
 					"varname" : "bitDepth"
 				}
@@ -417,6 +432,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}

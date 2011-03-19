@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 464.0, 105.0, 780.0, 681.0 ],
+		"rect" : [ 57.0, 44.0, 780.0, 681.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 464.0, 105.0, 780.0, 681.0 ],
+		"defrect" : [ 57.0, 44.0, 780.0, 681.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,8 +54,8 @@
 					"maxclass" : "bpatcher",
 					"name" : "jmod.shbubb~.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "signal", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "signal" ],
 					"patching_rect" : [ 266.0, 282.0, 300.0, 175.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 175.0 ]
 				}
@@ -80,7 +80,7 @@
 					"destination" : [ "obj-4", 2 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
-					"source" : [ "obj-2", 2 ]
+					"source" : [ "obj-2", 1 ]
 				}
 
 			}

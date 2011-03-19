@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 4.0, 44.0, 1318.0, 703.0 ],
+		"rect" : [ -38.0, 44.0, 1318.0, 703.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 4.0, 44.0, 1318.0, 703.0 ],
+		"defrect" : [ -38.0, 44.0, 1318.0, 703.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -490,8 +490,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 210.0, 452.0, 19.0 ],
-					"text" : "jcom.hub @module_type audio @description \"a wrapper for soundhack's +pitchdelay~\"",
+					"patching_rect" : [ 14.0, 210.0, 437.0, 19.0 ],
+					"text" : "jcom.hub @module_type audio @description \"A Delay combined with a pitch shifter\"",
 					"varname" : "jcom.hub"
 				}
 
