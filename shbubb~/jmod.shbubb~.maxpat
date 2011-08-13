@@ -822,7 +822,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 722.0, 549.0, 576.0, 31.0 ],
-					"text" : "jcom.parameter frequency @type decimal @range/bounds 20. 20000. @range/clipmode both @ramp/drive scheduler @dataspace pitch @priority 1 @description \"Filter frequency\" @dataspace/unit/native Hz",
+					"text" : "jcom.parameter frequency @type decimal @range/bounds 20. 20000. @range/clipmode both @ramp/drive scheduler @dataspace time @priority 1 @description \"Filter frequency\" @dataspace/unit/native Hz",
 					"varname" : "frequency"
 				}
 

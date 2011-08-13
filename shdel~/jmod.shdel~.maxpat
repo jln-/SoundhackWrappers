@@ -1033,7 +1033,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 527.0, 633.0, 582.0, 31.0 ],
-					"text" : "jcom.parameter filter/frequency @type decimal @range/bounds 20. 20000. @range/clipmode both @ramp/drive queue @dataspace pitch @description Frequency",
+					"text" : "jcom.parameter filter/frequency @type decimal @range/bounds 20. 20000. @range/clipmode both @ramp/drive queue @dataspace time @description Frequency",
 					"varname" : "filter/frequency"
 				}
 
@@ -1067,7 +1067,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 281.0, 530.0, 592.0, 31.0 ],
-					"text" : "jcom.parameter lfo/frequency @type decimal @range/bounds 0.01 10. @range/clipmode both @ramp/drive queue @dataspace pitch @description \"LFO frequency\"",
+					"text" : "jcom.parameter lfo/frequency @type decimal @range/bounds 0.01 10. @range/clipmode both @ramp/drive queue @dataspace time @description \"LFO frequency\"",
 					"varname" : "lfo/frequency"
 				}
 
