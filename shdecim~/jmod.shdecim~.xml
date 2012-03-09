@@ -5,17 +5,13 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='audio/bypass' type='boolean' priority='0'>0</item>
-    <item name='audio/gain' type='decimal' priority='0'>0</item>
-    <item name='audio/mix' type='decimal' priority='0'>0</item>
-    <item name='audio/mute' type='boolean' priority='0'>0</item>
-    <item name='bitDepth' type='decimal' priority='0'>24.000000</item>
-    <item name='folding' type='integer' priority='1'>8</item>
-    <item name='view/color/border' type='array' priority='0'>0</item>
-    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
-    <item name='view/freeze' type='boolean' priority='0'>0</item>
-    <item name='view/size' type='array' priority='0'>300 70 </item>
+    <item name='audio/bypass' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='audio/mix' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='bitDepth' type='decimal' priority='0' mixweight='1'>24.000000</item>
+    <item name='folding' type='integer' priority='1' mixweight='1'>8</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
   </preset>
 </jamoma>
