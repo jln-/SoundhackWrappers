@@ -96,7 +96,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 69.0, 669.0, 583.0, 31.0 ],
-					"text" : "jcom.parameter grain/size @type integer @range/bounds 0. 100. @range/clipmode both @ramp/drive scheduler @dataspace none @priority 1 @description \"Grain direction\" @dataspace/unit/native Hz",
+					"text" : "jcom.parameter grain/size @type integer @range/bounds 0. 100. @range/clipmode both @ramp/drive scheduler @dataspace none @priority 1 @description \"Grain direction\" @dataspace/unit Hz",
 					"varname" : "grain/size[1]"
 				}
 
@@ -822,7 +822,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 722.0, 549.0, 576.0, 31.0 ],
-					"text" : "jcom.parameter frequency @type decimal @range/bounds 20. 20000. @range/clipmode both @ramp/drive scheduler @dataspace time @priority 1 @description \"Filter frequency\" @dataspace/unit/native Hz",
+					"text" : "jcom.parameter frequency @type decimal @range/bounds 20. 20000. @range/clipmode both @ramp/drive scheduler @dataspace time @priority 1 @description \"Filter frequency\" @dataspace/unit Hz",
 					"varname" : "frequency"
 				}
 
@@ -839,7 +839,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 659.0, 621.0, 604.0, 31.0 ],
-					"text" : "jcom.parameter grain/position/variation @type integer @range/bounds 0. 100. @range/clipmode both @ramp/drive scheduler @dataspace none @priority 1 @description \"Grain position variation\" @dataspace/unit/native Hz",
+					"text" : "jcom.parameter grain/position/variation @type integer @range/bounds 0. 100. @range/clipmode both @ramp/drive scheduler @dataspace none @priority 1 @description \"Grain position variation\" @dataspace/unit Hz",
 					"varname" : "grain/startVariation"
 				}
 
@@ -856,7 +856,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 663.0, 191.0, 586.0, 31.0 ],
-					"text" : "jcom.parameter grain/octave/variation @type integer @range/bounds 0. 2. @range/clipmode low @ramp/drive scheduler @dataspace none @priority 1 @description \"grain octave variation\" @dataspace/unit/native Hz",
+					"text" : "jcom.parameter grain/octave/variation @type integer @range/bounds 0. 2. @range/clipmode low @ramp/drive scheduler @dataspace none @priority 1 @description \"grain octave variation\" @dataspace/unit Hz",
 					"varname" : "grain/octavevariation"
 				}
 
@@ -873,7 +873,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 728.0, 481.0, 358.0, 43.0 ],
-					"text" : "jcom.parameter feedback @type integer @range/bounds 0. 100. @range/clipmode low @ramp/drive scheduler @dataspace none @priority 1 @description feedback @dataspace/unit/native Hz",
+					"text" : "jcom.parameter feedback @type integer @range/bounds 0. 100. @range/clipmode low @ramp/drive scheduler @dataspace none @priority 1 @description feedback @dataspace/unit Hz",
 					"varname" : "feedback"
 				}
 
@@ -890,7 +890,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 67.0, 616.0, 518.0, 31.0 ],
-					"text" : "jcom.parameter grain/size @type integer @range/bounds 0. 50. @range/clipmode low @ramp/drive scheduler @dataspace none @priority 1 @description \"Grain size\" @dataspace/unit/native Hz",
+					"text" : "jcom.parameter grain/size @type integer @range/bounds 0. 50. @range/clipmode low @ramp/drive scheduler @dataspace none @priority 1 @description \"Grain size\" @dataspace/unit Hz",
 					"varname" : "grain/size"
 				}
 
@@ -907,7 +907,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 725.0, 306.0, 550.0, 31.0 ],
-					"text" : "jcom.parameter grain/delay @type integer @range/bounds 0. 10000. @range/clipmode both @ramp/drive scheduler @dataspace time @priority 1 @description \"Grain delay\" @dataspace/unit/native Hz",
+					"text" : "jcom.parameter grain/delay @type integer @range/bounds 0. 10000. @range/clipmode both @ramp/drive scheduler @dataspace time @priority 1 @description \"Grain delay\" @dataspace/unit Hz",
 					"varname" : "grain/delay"
 				}
 
@@ -924,7 +924,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 729.0, 375.0, 638.0, 31.0 ],
-					"text" : "jcom.parameter grain/delay/variation @type integer @range/bounds 0. 100. @range/clipmode both @ramp/drive scheduler @dataspace none @priority 1 @description \"Grain delay variation\" @dataspace/unit/native Hz",
+					"text" : "jcom.parameter grain/delay/variation @type integer @range/bounds 0. 100. @range/clipmode both @ramp/drive scheduler @dataspace none @priority 1 @description \"Grain delay variation\" @dataspace/unit Hz",
 					"varname" : "grain/delay/variation"
 				}
 
@@ -941,7 +941,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 48.0, 542.0, 509.0, 31.0 ],
-					"text" : "jcom.parameter resonance @type integer @range/bounds 0. 100. @range/clipmode both @ramp/drive scheduler @dataspace none @priority 1 @description Res @dataspace/unit/native Hz",
+					"text" : "jcom.parameter resonance @type integer @range/bounds 0. 100. @range/clipmode both @ramp/drive scheduler @dataspace none @priority 1 @description Res @dataspace/unit Hz",
 					"varname" : "resonance"
 				}
 

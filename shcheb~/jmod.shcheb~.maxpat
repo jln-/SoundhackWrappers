@@ -592,7 +592,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 611.0, 621.0, 586.0, 31.0 ],
-					"text" : "jcom.parameter polynomial/p7 @type integer @range/bounds -60. 0. @range/clipmode both @ramp/drive queue @ramp/function power @dataspace gain @dataspace/unit/native dB @description Polynomial",
+					"text" : "jcom.parameter polynomial/p7 @type integer @range/bounds -60. 0. @range/clipmode both @ramp/drive queue @ramp/function power @dataspace gain @dataspace/unit dB @description Polynomial",
 					"varname" : "polynomial/p1[4]"
 				}
 
@@ -609,7 +609,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 609.0, 505.0, 586.0, 31.0 ],
-					"text" : "jcom.parameter polynomial/p5 @type integer @range/bounds -60. 0. @range/clipmode both @ramp/drive queue @ramp/function power @dataspace gain @dataspace/unit/native dB @description Polynomial",
+					"text" : "jcom.parameter polynomial/p5 @type integer @range/bounds -60. 0. @range/clipmode both @ramp/drive queue @ramp/function power @dataspace gain @dataspace/unit dB @description Polynomial",
 					"varname" : "polynomial/p1[6]"
 				}
 
@@ -626,7 +626,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 609.0, 390.0, 586.0, 31.0 ],
-					"text" : "jcom.parameter polynomial/p4 @type integer @range/bounds -60. 0. @range/clipmode both @ramp/drive queue @ramp/function power @dataspace gain @dataspace/unit/native dB @description Polynomial",
+					"text" : "jcom.parameter polynomial/p4 @type integer @range/bounds -60. 0. @range/clipmode both @ramp/drive queue @ramp/function power @dataspace gain @dataspace/unit dB @description Polynomial",
 					"varname" : "polynomial/p1[2]"
 				}
 
@@ -643,7 +643,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 609.0, 275.0, 586.0, 31.0 ],
-					"text" : "jcom.parameter polynomial/p3 @type integer @range/bounds -60. 0. @range/clipmode both @ramp/drive queue @ramp/function power @dataspace gain @dataspace/unit/native dB @description Polynomial",
+					"text" : "jcom.parameter polynomial/p3 @type integer @range/bounds -60. 0. @range/clipmode both @ramp/drive queue @ramp/function power @dataspace gain @dataspace/unit dB @description Polynomial",
 					"varname" : "polynomial/p1[3]"
 				}
 
@@ -660,7 +660,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 609.0, 155.0, 586.0, 31.0 ],
-					"text" : "jcom.parameter polynomial/p2 @type integer @range/bounds -60. 0. @range/clipmode both @ramp/drive queue @ramp/function power @dataspace gain @dataspace/unit/native dB @description Polynomial",
+					"text" : "jcom.parameter polynomial/p2 @type integer @range/bounds -60. 0. @range/clipmode both @ramp/drive queue @ramp/function power @dataspace gain @dataspace/unit dB @description Polynomial",
 					"varname" : "polynomial/p1[1]"
 				}
 
@@ -858,7 +858,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 609.0, 35.0, 586.0, 31.0 ],
-					"text" : "jcom.parameter polynomial/p1 @type integer @range/bounds -60. 0. @range/clipmode both @ramp/drive queue @ramp/function power @dataspace gain @dataspace/unit/native dB @description Polynomial",
+					"text" : "jcom.parameter polynomial/p1 @type integer @range/bounds -60. 0. @range/clipmode both @ramp/drive queue @ramp/function power @dataspace gain @dataspace/unit dB @description Polynomial",
 					"varname" : "polynomial/p1"
 				}
 

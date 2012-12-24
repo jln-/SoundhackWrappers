@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 2
+			"revision" : 8
 		}
 ,
 		"rect" : [ 0.0, 44.0, 1280.0, 726.0 ],
@@ -59,7 +59,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-82",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -88,6 +88,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Feedback switch",
 					"border" : 1,
 					"fontface" : 1,
 					"fontname" : "Arial",
@@ -123,6 +124,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Number of heads",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-92",
@@ -179,7 +181,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 668.0, 510.0, 134.0, 19.0 ],
+					"patching_rect" : [ 571.0, 489.0, 134.0, 19.0 ],
 					"text" : "loadmess setcheck 8226"
 				}
 
@@ -193,13 +195,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 782.0, 440.0, 154.0, 18.0 ],
+					"patching_rect" : [ 782.0, 440.0, 156.0, 17.0 ],
 					"text" : "clearchecks, checkitem $1 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "LFO wavwform",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"fontface" : 1,
 					"fontname" : "Arial",
@@ -212,7 +215,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 757.0, 473.0, 100.0, 18.0 ],
+					"patching_rect" : [ 660.0, 440.0, 100.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 69.0, 99.0, 68.0, 18.0 ],
 					"textcolor" : [ 0.14902, 0.14902, 0.14902, 0.0 ]
@@ -300,6 +303,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Frequency",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-78",
@@ -317,7 +321,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-79",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -369,6 +373,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Resonance",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-73",
@@ -383,6 +388,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Resonance",
 					"bgcolor" : [ 0.14902, 0.14902, 0.14902, 1.0 ],
 					"bordercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"contdata" : 1,
@@ -408,7 +414,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-75",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -458,6 +464,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "LFO frequency",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-65",
@@ -496,7 +503,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-67",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -548,6 +555,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "LFO depth",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-49",
@@ -587,7 +595,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-51",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -605,7 +613,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -620,6 +628,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Freeze feedback",
 					"border" : 1,
 					"fontface" : 1,
 					"fontname" : "Arial",
@@ -678,6 +687,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Feedback",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-23",
@@ -717,7 +727,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -769,6 +779,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Delay time",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-62",
@@ -808,7 +819,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-20",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -826,7 +837,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -869,6 +880,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "amplitude of output signal 2",
 					"id" : "obj-53",
 					"maxclass" : "jcom.meter~",
 					"numinlets" : 1,
@@ -882,6 +894,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "amplitude of output signal 1",
 					"id" : "obj-54",
 					"maxclass" : "jcom.meter~",
 					"numinlets" : 1,
@@ -900,7 +913,6 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"has_gain" : 1,
-					"has_meters" : 1,
 					"has_mix" : 1,
 					"has_mute" : 1,
 					"headercolor" : [ 0.14902, 0.14902, 0.14902, 1.0 ],
@@ -1651,7 +1663,7 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-85", 0 ]
+					"source" : [ "obj-85", 1 ]
 				}
 
 			}
@@ -1731,13 +1743,13 @@
 		"dependency_cache" : [ 			{
 				"name" : "jcom.meter_receive.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/meter_receive",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/meter_receive",
+				"patcherrelativepath" : "../../../Jamoma/Modules/Modular/Max/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.shdel~.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/SoundhackWrappers/shdel~",
+				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/SoundhackWrappers/shdel~",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
