@@ -694,7 +694,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 188.0, 193.0, 80.0, 4.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.0, 5.0, 80.0, 4.0 ]
+					"presentation_rect" : [ 152.5, 7.0, 80.0, 4.0 ]
 				}
 
 			}
@@ -704,6 +704,7 @@
 					"bordercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontface" : 3,
 					"fontname" : "Arial",
+					"has_bypass" : 1,
 					"has_gain" : 1,
 					"has_mix" : 1,
 					"has_mute" : 1,
